@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, lightgreen , blue);
+}
+
+.borders {
+    width: 596px;
+    height: 316px;
+    top: 0;
+    left: 0;
+    background-color: rgba(41,235,34,0.4);
+}
+
+.right-border {
+    position: absolute;
+    width: 12px;
+    height: 293px;
+    top: 40px;
+    left: 490px;
+}
+
+.upper-border {
+    position: absolute;
+    width: 549px;
+    height: 12px;
+    top: 20px;
+    left: 19px;
+}
+
+.left-border {
+    position: absolute;
+    width: 12px;
+    height: 309px;
+    top: 40px;
+    left: 0;
+}
+
+.lower-border {
+    position: absolute;
+    width: 559px;
+    height: 12px;
+    top: 209px;
+    left: 5px;
+}
+
+.left-goal {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    transform: rotate(90deg);
+}
+
+.right-goal {
+    position: absolute;
+    top: 110px;
+    left: 440px;
+    transform: rotate(-90deg);
+}
+
+.left-box .outer-box {
+    position: absolute;
+    top: 115px;
+    left: 65px;
+    font-size: 9px;
+    transform: rotate(90deg);
+}
+
+.right-box .outer-box {
+    position: absolute;
+    top: 115px;
+    left: 355px;
+    font-size: 9px;
+    transform: rotate(-90deg);
+}
+
+.left-box .upper-box {
+    position: absolute;
+    top: 73px;
+    left: 170px;
+    font-size: 18px;
+    transform: rotate(110deg);
+}
+
+.left-box .lower-box {
+    position: absolute;
+    top: 160px;
+    left: 170px;
+    font-size: 18px;
+    transform: rotate(70deg);
+}
+
+.right-box .upper-box {
+    position: absolute;
+    top: 73px;
+    left: 320px;
+    font-size: 18px;
+    transform: rotate(250deg);
+}
+
+.right-box .lower-box {
+    position: absolute;
+    top: 160px;
+    left: 320px;
+    font-size: 18px;
+    transform: rotate(290deg);
+}
+
+.midline {
+    position: absolute;
+    top: 45px;
+    left: 260px;
+    width: 7px;
+    font-size: 8px;
+    font-weight: bold;
+}
